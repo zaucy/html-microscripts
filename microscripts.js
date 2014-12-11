@@ -37,7 +37,7 @@
 		
 		while(microScriptBeginIndex >= 0 && microScriptEndIndex >= 0) {
 			var microScript = document.documentElement.innerHTML.slice(microScriptBeginIndex + wrap.begin.length, microScriptEndIndex);
-			console.log(microScript);
+			
 			document.documentElement.innerHTML = stringReplaceSect(document.documentElement.innerHTML,
 				microScriptBeginIndex, microScriptEndIndex + wrap.end.length, eval(microScript));
 			
