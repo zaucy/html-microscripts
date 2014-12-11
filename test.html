@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script>
+			var site = {
+				title: "microscripts title",
+				body: "The title of this html file is '$(site.title)'."
+			};
+		</script>
+		<script src="microscripts.js"></script>
+		<meta name="microscripts" content="$(*)">
+		<title>$(site.title)</title>
+	</head>
+	<body>
+		$(site.body)
+		<br>
+		10 / 2 * PI = $(10 / 2 * Math.PI)
+		<br>
+	</body>
+</html>
