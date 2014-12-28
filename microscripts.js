@@ -5,7 +5,7 @@
 				var metaTags = document.head.getElementsByTagName("meta");
 				for(var metaTagIndex in metaTags) {
 					var metaTag = metaTags[metaTagIndex];
-					if(metaTag.name == "microscripts" || metaTag.name == "microscript") {
+					if(metaTag.name == "microscripts-syntax" || metaTag.name == "microscript-syntax") {
 						var content = metaTag.content;
 						var wrap = {
 							begin: content.substr(0, content.indexOf("*")),

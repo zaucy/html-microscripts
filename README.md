@@ -2,7 +2,7 @@ First define the microscript syntax in a meta tag within the head of the HTML do
 ```html
 <head>
 	...
-	<meta name="microscripts" content="{{*}}">
+	<meta name="microscript-syntax" content="{{*}}">
 	<script src="microscripts.js"></script>
 	...
 </head>
